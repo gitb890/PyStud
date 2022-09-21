@@ -1,3 +1,5 @@
+from typing import List
+
 data = ['huf','jiosd','jisof','shdj',12]
 
 *friut,_= data
@@ -13,3 +15,7 @@ print(_)
 for username,score in [('hui',100),('huisd',50)]:
     print(username)
     print(score)
+
+
+def remove_invalid(items:List[int]):
+    """剔除items里面无效的元素 """
