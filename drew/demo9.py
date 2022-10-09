@@ -10,3 +10,15 @@ movie['rating'] = 10
 movie['rating'] = 9
 movie
 # {'name': 'Burning', 'type': 'movie', 'year': 2018, 'rating': 9}
+
+for key in movie:
+    print(movie[key])
+
+for key,value in movie.items():
+    print(key,value)
+
+try:
+    dict['items'].append(value)
+except KeyError:
+    dict['items']=[value]
+
